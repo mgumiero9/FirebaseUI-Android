@@ -20,7 +20,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
 
             // For the purposes of the sample, allow testing of a proguarded release build
-            // using the debug key
+            // using the debug key.
             signingConfig signingConfigs.debug
         }
     }
